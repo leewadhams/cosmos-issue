@@ -1,0 +1,131 @@
+{
+    "EntityId" : "fcde6e15-1f15-4ff4-a4f9-96ce39da202f",
+    "DateCreated" : "2017-01-01T00:00:00.000Z",
+    "DateUpdated" : "2018-01-01T00:00:00.000Z",
+    "VacancyStatus" : 4,
+    "Status" : 90,
+    "IsArchived" : true,
+    "DateApplied" : "2018-01-01T00:00:00.000Z",
+    "CandidateId" : "4bed0670-96aa-41fe-8a90-3122e0fa5753",
+    "LegacyApplicationId" : 9999999,
+    "CandidateDetails" : {
+        "FirstName" : "FirstName 4bed067096aa41fe8a903122e0fa5753",
+        "MiddleNames" : null,
+        "LastName" : "LastName 4bed067096aa41fe8a903122e0fa5753",
+        "DateOfBirth" : "1999-12-31T23:59:59.999Z",
+        "Address" : {
+            "AddressLine1" : "17 Some Road",
+            "AddressLine2" : null,
+            "AddressLine3" : "Some Town",
+            "AddressLine4" : "Some County",
+            "Postcode" : "AB1 2CD",
+            "Uprn" : "1234567",
+            "GeoPoint" : {
+                "Longitude" : -1.70728600451379,
+                "Latitude" : 42.3344269646176
+            }
+        },
+        "EmailAddress" : "4bed067096aa41fe8a903122e0fa5753@email.com",
+        "PhoneNumber" : "07777111222",
+        "AcceptedTermsAndConditionsVersion" : "Version 1"
+    },
+    "CandidateInformation" : {
+        "EducationHistory" : {
+            "Institution" : "College",
+            "FromYear" : 2011,
+            "ToYear" : 2014
+        },
+        "Qualifications" : [ 
+            {
+                "QualificationType" : "GCSE",
+                "Subject" : "Maths",
+                "Grade" : "B",
+                "IsPredicted" : false,
+                "Year" : 2009
+            }, 
+            {
+                "QualificationType" : "GCSE",
+                "Subject" : "English",
+                "Grade" : "C",
+                "IsPredicted" : false,
+                "Year" : 2009
+            }, 
+            {
+                "QualificationType" : "GCSE",
+                "Subject" : "IT",
+                "Grade" : "B B",
+                "IsPredicted" : false,
+                "Year" : 2009
+            }, 
+            {
+                "QualificationType" : "GCSE",
+                "Subject" : "BTEC Art",
+                "Grade" : "B B",
+                "IsPredicted" : false,
+                "Year" : 2009
+            }, 
+            {
+                "QualificationType" : "GCSE",
+                "Subject" : "Double Science",
+                "Grade" : "C C",
+                "IsPredicted" : false,
+                "Year" : 2009
+            }, 
+            {
+                "QualificationType" : "Foundation Degree",
+                "Subject" : "Business with HR",
+                "Grade" : "2.3",
+                "IsPredicted" : false,
+                "Year" : 2015
+            }
+        ],
+        "WorkExperience" : [ 
+            {
+                "Employer" : "Employer",
+                "JobTitle" : "Job title",
+                "Description" : "Description Description Description Description",
+                "FromDate" : "2015-01-01T00:00:00.000Z",
+                "ToDate" : "2016-01-01T00:00:00.000Z"
+            }
+        ],
+        "TrainingCourses" : [],
+        "AboutYou" : {
+            "Strengths" : "Suspendisse fermentum at dolor nec commodo. Sed vitae lectus venenatis neque venenatis tristique. Quisque ornare interdum semper. Suspendisse tempor odio id ante fermentum auctor. Praesent a risus ac sapien dignissim convallis eget quis sapien. In quis nisl sit amet purus convallis consectetur. Praesent tincidunt et libero quis scelerisque. Integer dictum dictum ligula non efficitur. Cras suscipit dictum elementum. Phasellus congue accumsan eros, id finibus mi. Nullam ut fringilla eros.",
+            "Improvements" : "Suspendisse fermentum at dolor nec commodo. Sed vitae lectus venenatis neque venenatis tristique. Quisque ornare interdum semper. Suspendisse tempor odio id ante fermentum auctor. Praesent a risus ac sapien dignissim convallis eget quis sapien. In quis nisl sit amet purus convallis consectetur. Praesent tincidunt et libero quis scelerisque. Integer dictum dictum ligula non efficitur. Cras suscipit dictum elementum. Phasellus congue accumsan eros, id finibus mi. Nullam ut fringilla eros.",
+            "HobbiesAndInterests" : "Suspendisse fermentum at dolor nec commodo. Sed vitae lectus venenatis neque venenatis tristique. Quisque ornare interdum semper. Suspendisse tempor odio id ante fermentum auctor. Praesent a risus ac sapien dignissim convallis eget quis sapien. In quis nisl sit amet purus convallis consectetur. Praesent tincidunt et libero quis scelerisque. Integer dictum dictum ligula non efficitur. Cras suscipit dictum elementum. Phasellus congue accumsan eros, id finibus mi. Nullam ut fringilla eros.",
+            "Support" : ""
+        },
+        "DisabilityStatus" : null
+    },
+    "AdditionalQuestion1Answer" : "AdditionalQuestion1Answer",
+    "AdditionalQuestion2Answer" : "AdditionalQuestion2Answer",
+    "DateLastViewed" : null,
+    "Notes" : null,
+    "SuccessfulDateTime" : null,
+    "UnsuccessfulDateTime" : null,
+    "WithdrawnOrDeclinedReason" : null,
+    "UnsuccessfulReason" : "Reason for being unsuccessful",
+    "Vacancy" : {
+        "_id" : 0,
+        "VacancyReference" : "VAC012345678",
+        "Title" : "Apprentice",
+        "PostedDate" : "2016-01-01T00:00:00.000Z",
+        "StartDate" : "2016-02-01T00:00:00.000Z",
+        "ClosingDate" : "2016-01-31T00:00:00.000Z",
+        "Description" : "Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description",
+        "NumberOfPositions" : 1,
+        "EmployerName" : "Employer",
+        "ProviderName" : null,
+        "IsPositiveAboutDisability" : false,
+        "Location" : null,
+        "Category" : null,
+        "CategoryCode" : null,
+        "SubCategory" : null,
+        "SubCategoryCode" : null,
+        "VacancyLocationType" : 1,
+        "ApprenticeshipLevel" : 0,
+        "Wage" : null,
+        "WageUnit" : 0,
+        "WorkingWeek" : null
+    }
+}
