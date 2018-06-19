@@ -1,0 +1,17 @@
+# 1. Create sharded collection with 'incorrect' shard key
+az cosmosdb collection create --name {account-name} --db-name {db-name} --resource-group {resource-group} --collection-name mstest01 --throughput 50000 --partition-key-path "/'\$v'/Invalid/'\$v'"
+
+# 2. Run the data generation tool to verify incorrect shard key
+
+# 3. Delete collection
+az cosmosdb collection delete --name {account-name} --db-name {db-name} --resource-group {resource-group} --collection-name mstest01
+
+# 4. Create collection with correct shard key
+az cosmosdb collection create --name {account-name} --db-name {db-name} --resource-group {resource-group} --collection-name mstest01 --throughput 50000 --partition-key-path "/'\$v'/CandidateId/'\$v'"
+
+# 5. Run data generation tool for 5 mins.
+    # Sometimes the error happens on the first run
+    # If not stop it and run it again, have seen with small runs (repeat until error)
+
+# 6. Clean up
+az cosmosdb collection delete --name {account-name} --db-name {db-name} --resource-group {resource-group} --collection-name mstest01
